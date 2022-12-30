@@ -17,7 +17,7 @@
 
         <provider
             android:name=".ArtProvider"
-            android:authorities="xyz.dennislee.muzeikon"
+            android:authorities="${authority}"
             android:description="@string/description"
             android:exported="true"
             android:label="@string/name"
