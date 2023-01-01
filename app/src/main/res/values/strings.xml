@@ -1,7 +1,7 @@
 <!DOCTYPE resources [
-    <!ENTITY name "Muzeikon">
+    <!ENTITY name "<xliff:g>Muzeikon</xliff:g>">
     ]>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">&name;</string>
     <string name="name">&name;</string>
     <string name="description">Saints of the day</string>
