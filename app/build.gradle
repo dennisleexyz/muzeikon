@@ -16,6 +16,7 @@ android {
 
         def authority = "xyz.dennislee.muzeikon"
         manifestPlaceholders = [authority: authority]
+        buildConfigField "String", "AUTHORITY", "\"${authority}\""
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 

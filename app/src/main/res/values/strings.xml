@@ -1,8 +1,14 @@
 <!DOCTYPE resources [
     <!ENTITY name "<xliff:g>Muzeikon</xliff:g>">
+    <!ENTITY muzei_name "<xliff:g>Muzei</xliff:g>">
+    <!ENTITY google_play "<xliff:g>Google Play</xliff:g>">
     ]>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">&name;</string>
     <string name="name">&name;</string>
     <string name="description">Saints of the day</string>
+    <string name="toast_enable">Select &name; in &muzei_name;</string>
+    <string name="toast_enable_source">Select &name; from the list of Sources in &muzei_name;</string>
+    <string name="toast_muzei_missing_error">You must install &muzei_name; to use this Source</string>
+    <string name="toast_play_store_missing_error">Could not install &muzei_name; from the &google_play; Store</string>
 </resources>

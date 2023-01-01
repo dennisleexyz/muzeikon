@@ -15,6 +15,20 @@
         android:theme="@style/Theme.Muzeikon"
         tools:targetApi="31">
 
+        <activity-alias
+            android:name=".LauncherActivity"
+            android:enabled="@bool/enable_launcher"
+            android:exported="true"
+            android:targetActivity=".RedirectActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity
+            android:name=".RedirectActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
         <provider
             android:name=".ArtProvider"
             android:authorities="${authority}"
