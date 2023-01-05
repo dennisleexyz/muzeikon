@@ -1,0 +1,5 @@
+Load available icons for current day from the Orthodox Church in America. Automatically deletes previous days' icons.
+
+https://github.com/dennisleexyz/muzeikon
+
+"Holy Sepulchre, detail of the dome over the Katholikon, Jerusalem (little retouching of some reflexes)" by Berthold Werner; edited by user Jaybear, used under CC BY-SA 3.0 / Cropped from original
