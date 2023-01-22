@@ -11,11 +11,8 @@ android {
         applicationId "xyz.dennislee.muzeikon"
         minSdk 19
         targetSdk 33
-        def versionMajor = 0
-        def versionMinor = 1
-        def versionPatch = 0
-        versionCode versionMajor * 10000 + versionMinor * 100 + versionPatch
-        versionName "${versionMajor}.${versionMinor}.${versionPatch}"
+        versionCode 100
+        versionName "0.1.0"
 
         def authority = "xyz.dennislee.muzeikon"
         manifestPlaceholders = [authority: authority]
