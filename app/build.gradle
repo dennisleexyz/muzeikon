@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId "xyz.dennislee.muzeikon"
-        minSdk 19
+        minSdk 21
         targetSdk 33
         versionCode 100
         versionName "0.1.0"
@@ -53,7 +53,6 @@ dependencies {
 if (android.defaultConfig.minSdk < 26) {
     android {
         defaultConfig {
-            // Required when setting minSdkVersion to 20 or lower
             multiDexEnabled true
         }
 
