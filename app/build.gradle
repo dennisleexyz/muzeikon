@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'xyz.dennislee.muzeikon'
-    compileSdk 33
+    compileSdk 36
 
     defaultConfig {
         applicationId "xyz.dennislee.muzeikon"
         minSdk 21
-        targetSdk 33
+        targetSdk 36
         versionCode 100
         versionName "0.1.0"
 
@@ -35,6 +35,9 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+    buildFeatures {
+        buildConfig true
     }
 }
 
